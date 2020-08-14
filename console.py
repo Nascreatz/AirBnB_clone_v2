@@ -137,7 +137,6 @@ class HBNBCommand(cmd.Cmd):
             # float: Contains a dot
             # number: Int
 
-
         return dictionary
 
     def do_create(self, args):
@@ -166,7 +165,7 @@ class HBNBCommand(cmd.Cmd):
 
         storage.save()
         print(new_instance.id)
-        #storage.save()
+        # storage.save()
         new_instance.save()
 
     def help_create(self):
